@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.ff95796bbbbd0cc0d1d8a4041fd1a0fe.js"
+  "/precache-manifest.62ff03e715dbed7391a20389d9cb4c22.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "project-shinigami"});
