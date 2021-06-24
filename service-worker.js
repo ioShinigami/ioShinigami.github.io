@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.28592ecf29cdc0d57fc85646d3f4c974.js"
+  "/precache-manifest.60e400070406f206e9a23e3ec2d06467.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "project-shinigami"});
+workbox.core.setCacheNameDetails({prefix: "project-shinigami-refactor"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
